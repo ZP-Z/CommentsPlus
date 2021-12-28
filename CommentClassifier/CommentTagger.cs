@@ -48,7 +48,7 @@ namespace CommentsPlus.CommentClassifier
         static readonly string[] QuestionComments = { "? " };
         static readonly string[] WtfComments = { "!? ", "‽ ", "WTF ", "WTF: "/*, "WAT ", "WAT: "*/ }; //ಠ_ಠ
         static readonly string[] RemovedComments = { "x ", "¤ ", "// ", "//" };
-        static readonly string[] TaskComments = { "TODO ", "TODO:", "TODO@", "HACK ", "HACK:" }; 
+        static readonly string[] TaskComments = { "TODO ", "TODO:", "TODO@", "HACK ", "HACK:", "FIXME:", "NOTE:" }; 
         static readonly string[] RainbowComments = { "+? " }; //シ  
 
         static readonly List<ITagSpan<ClassificationTag>> EmptyTags = new List<ITagSpan<ClassificationTag>>();

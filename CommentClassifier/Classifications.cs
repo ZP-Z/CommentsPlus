@@ -79,10 +79,10 @@ namespace CommentsPlus.CommentClassifier
         //x public const string LargerComment = "Comment ++ Large";
 
         public static readonly Color ImportantColor = Colors.Green;
-        public static readonly Color QuestionColor = Colors.Red;
-        public static readonly Color WtfColor = Colors.Purple;
+        public static readonly Color QuestionColor = Colors.LightSkyBlue;
+        public static readonly Color WtfColor = Colors.Red;
         public static readonly Color RemovedColor = Colors.Gray;
-        public static readonly Color TaskColor = Color.FromRgb(192, 96, 0);
+        public static readonly Color TaskColor = Color.FromRgb(218, 112, 214);
     }
 
     public static class ClassificationDefinitions
@@ -235,6 +235,7 @@ namespace CommentsPlus.CommentClassifier
         {
             this.DisplayName = Constants.TaskComment + " (//TODO)";
             this.ForegroundColor = Constants.TaskColor;
+            this.IsBold = true;
         }
     }
 
