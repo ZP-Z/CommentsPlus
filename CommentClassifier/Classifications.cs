@@ -82,7 +82,7 @@ namespace CommentsPlus.CommentClassifier
         public static readonly Color QuestionColor = Colors.LightSkyBlue;
         public static readonly Color WtfColor = Colors.Red;
         public static readonly Color RemovedColor = Colors.Gray;
-        public static readonly Color TaskColor = Color.FromRgb(218, 112, 214);
+        public static readonly Color TaskColor = Color.FromRgb(255, 99, 71);
     }
 
     public static class ClassificationDefinitions
